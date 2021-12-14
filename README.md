@@ -17,6 +17,8 @@
     cd SD_Assignment
 
     composer install
+    
+    cp .env.example .env
 
     php artisan migrate
 
